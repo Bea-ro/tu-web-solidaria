@@ -1,0 +1,5 @@
+:host {
+  border-radius: 32px;
+  background-color: var(--color-orange);
+  box-shadow: #87878740;
+}
