@@ -1,5 +1,15 @@
-:host {
+.card-container {
   border-radius: 32px;
-  background-color: var(--color-orange);
-  box-shadow: #87878740;
+  box-shadow: inset 0 0 8px #eb5b004a;
+  height: 400px;
+  padding: 30px 16px;
+}
+
+.card-text {
+  font-size: 26px;
+}
+
+.remarked-text {
+  color: var(--color-red);
+  font-weight: 500;
 }

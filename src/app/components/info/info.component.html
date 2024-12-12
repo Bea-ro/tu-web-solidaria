@@ -1,4 +1,28 @@
-<h3>¿Por qué es importante tener tu página web?</h3>
-<app-card [cardText]="'Punto de encuentro con tus beneficiarios'"></app-card>
-<app-card [cardText]="'Carta de presentación a colaboradores'"></app-card>
-<app-card [cardText]="'Transparencia y acceso a subvenciones'"></app-card>
+<h3 class="info-intro">¿Por qué es importante tener tu página web?</h3>
+<p class="info-answear">
+  Es tan importante la actividad que desarrollas como que el resto del mundo la conozca
+</p>
+<ul class="cards">
+  <li>
+    <app-card [cardText]="'Punto de encuentro con tus'" [remarkedText]="'beneficiarios'"></app-card>
+  </li>
+  <li>
+    <app-card [cardText]="'Carta de presentación a'" [remarkedText]="'colaboradores'"></app-card>
+  </li>
+  <li>
+    <app-card [cardText]="'Transparencia y acceso a'" [remarkedText]="'subvenciones'"></app-card>
+  </li>
+</ul>
+
+<div class="buttons-container">
+  <app-button
+    [buttonStyle]="'white-button'"
+    [buttonText]="'Info'"
+    [buttonLink]="'/contacta'"
+  ></app-button>
+  <app-button
+    [buttonStyle]="'coloured-button'"
+    [buttonText]="'Precios'"
+    [buttonLink]="'/contacta'"
+  ></app-button>
+</div>

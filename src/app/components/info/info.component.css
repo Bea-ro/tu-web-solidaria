@@ -1,0 +1,23 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 46px;
+  width: 70%;
+  gap: 16px;
+}
+
+.info-intro {
+  color: var(--color-red);
+}
+
+.info-answear {
+  font-size: 36px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 16px;
+  padding: 20px 0;
+}

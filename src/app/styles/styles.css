@@ -5,8 +5,8 @@
 :root {
   --color-yellow: #ffb200;
   --color-orange: #eb5b00;
-  --color-red: #e4003a;
-  --color-purple: #b60071;
+  --color-red: #ca0035;
+  --color-purple: rgb(182, 0, 113);
   --color-black: #000000;
   --color-grey: #e2e2e2;
   --color-white: #ffffff;
@@ -59,20 +59,11 @@ li {
   list-style-type: none;
 }
 
-p {
-  text-align: center;
-}
-
 .element-title {
   padding: 12px;
   font-size: 30px;
   text-align: center;
   color: var(--color-orange);
-}
-
-.fa-solid {
-  color: var(--color-orange);
-  font-size: 48px;
 }
 
 .remarked-text {
