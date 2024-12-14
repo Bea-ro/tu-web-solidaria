@@ -1,4 +1,5 @@
-<div class="card-container">
-  <p class="card-text">{{ cardText }}</p>
-  <p class="remarked-text">{{ remarkedText }}</p>
+<div [ngClass]="['card-container', cardClass]">
+  <p *ngFor="let text of cardText">
+    <span [ngClass]="text.type">{{ text.text }}</span>
+  </p>
 </div>

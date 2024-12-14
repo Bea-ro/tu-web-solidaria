@@ -1,15 +1,52 @@
+.beneficiarios-card {
+  background: url('/assets/pexels-rdne-4920855.jpg');
+}
+
+.colaboradores-card {
+  background: url('/assets/pexels-rdne-8735915.jpg');
+}
+
+.transparencia-card {
+  background: url('/assets/pexels-alla-sergeeva-104293242-9481122.jpg');
+}
+
 .card-container {
   border-radius: 32px;
   box-shadow: inset 0 0 8px #eb5b004a;
   height: 400px;
   padding: 30px 16px;
+  background-size: cover;
+  position: relative;
 }
 
-.card-text {
+.card-container::before {
+  border-radius: 32px;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+.mid-text {
   font-size: 26px;
+  position: relative;
+  z-index: 1;
+  color: var(--color-white);
 }
 
 .remarked-text {
   color: var(--color-red);
   font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+
+.small-text {
+  color: var(--color-white);
+  position: relative;
+  z-index: 1;
 }

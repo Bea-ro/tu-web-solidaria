@@ -66,10 +66,9 @@ li {
   color: var(--color-orange);
 }
 
-.remarked-text {
-  color: var(--color-red);
-  font-size: 32px;
-  text-align: center;
+.buttons-container {
+  display: flex;
+  gap: 12px;
 }
 
 .narrow-text {

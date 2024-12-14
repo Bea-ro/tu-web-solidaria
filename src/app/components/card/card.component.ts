@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
+import { CardText } from './card.model';
 
 @Component({
   selector: 'app-card',
@@ -9,6 +10,6 @@ import { Component, Input } from '@angular/core';
   styleUrl: './card.component.css'
 })
 export class CardComponent {
-  @Input() cardText: string = '';
-  @Input() remarkedText: string = '';
+  @Input() cardText: CardText[] = [];
+  @Input() cardClass: string = '';
 }

@@ -1,0 +1,26 @@
+:host {
+  width: 100vw;
+  background-color: var(--color-purple);
+  display: flex;
+  justify-content: center;
+}
+
+.pains-section {
+  width: 80%;
+  color: var(--color-white);
+  display: flex;
+}
+
+.pains-text-and-button {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.pains-image {
+  width: 30%;
+}
+
+.pains-answear {
+  font-size: 36px;
+}
