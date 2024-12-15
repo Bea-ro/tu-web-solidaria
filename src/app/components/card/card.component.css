@@ -41,6 +41,7 @@
 .remarked-text {
   color: var(--color-red);
   font-weight: 500;
+  font-size: 36px;
   position: relative;
   z-index: 1;
 }

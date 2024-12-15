@@ -1,6 +1,6 @@
 :host {
   width: 100vw;
-  background-color: var(--color-purple);
+  background-color: var(--color-orange);
   display: flex;
   justify-content: center;
 }
