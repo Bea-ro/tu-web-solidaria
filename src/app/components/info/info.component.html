@@ -4,38 +4,13 @@
 </p>
 <ul class="cards">
   <li>
-    <app-card
-      [cardClass]="'beneficiarios-card'"
-      [cardText]="[
-        { type: 'small-text', text: 'Tu página sirve como ' },
-        { type: 'mid-text', text: 'punto de encuentro con tus ' },
-        { type: 'remarked-text', text: 'beneficiarios' },
-        { type: 'small-text', text: '24/7' }
-      ]"
-    ></app-card>
+    <app-card [cardClass]="'beneficiarios-card'" [cardText]="cardTexts[0]"></app-card>
   </li>
   <li>
-    <app-card
-      [cardClass]="'colaboradores-card'"
-      [cardText]="[
-        {
-          type: 'small-text',
-          text: 'Tendrás una carta de presentación a '
-        },
-        { type: 'remarked-text', text: 'colaboradores ' },
-        { type: 'mid-text', text: 'potenciales' }
-      ]"
-    ></app-card>
+    <app-card [cardClass]="'colaboradores-card'" [cardText]="cardTexts[1]"></app-card>
   </li>
   <li>
-    <app-card
-      [cardClass]="'transparencia-card'"
-      [cardText]="[
-        { type: 'small-text', text: 'Es una evidencia más de tu ' },
-        { type: 'remarked-text', text: 'transparencia ' },
-        { type: 'mid-text', text: 'y te facilitará el acceso a subvenciones' }
-      ]"
-    ></app-card>
+    <app-card [cardClass]="'transparencia-card'" [cardText]="cardTexts[2]"></app-card>
   </li>
 </ul>
 
