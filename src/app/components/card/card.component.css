@@ -1,13 +1,13 @@
-.beneficiarios-card {
+.card0 {
   background: url('/assets/pexels-rdne-4920855.jpg');
 }
 
-.colaboradores-card {
-  background: url('/assets/pexels-rdne-8735915.jpg');
+.card1 {
+  background: url('/assets/pexels-george-milton-6953835.jpg');
 }
 
-.transparencia-card {
-  background: url('/assets/pexels-alla-sergeeva-104293242-9481122.jpg');
+.card2 {
+  background: url('/assets/ong-transparencia.jpg');
 }
 
 .card-container {

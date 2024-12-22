@@ -1,9 +1,17 @@
 <app-navbar></app-navbar>
 <main class="main">
   <app-title></app-title>
-  <app-info></app-info>
+  <app-info
+    [infoIntro]="'¿Por qué es importante tener tu página web?'"
+    [infoAnswear]="'Es tan importante la actividad que desarrollas como que el mundo se entere'"
+    [cardTexts]="reasonsCards"
+  ></app-info>
   <app-pains></app-pains>
-  <app-info></app-info>
+  <app-info
+    [infoIntro]="'¿Cuánto te va a costar?'"
+    [infoAnswear]="'Tú eliges en fucnión de tus necesidades y presupuesto'"
+    [cardTexts]="pricesCards"
+  ></app-info>
 </main>
 
 <router-outlet />

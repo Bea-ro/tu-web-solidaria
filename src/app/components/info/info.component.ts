@@ -1,7 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CardComponent } from '../card/card.component';
 import { ButtonComponent } from '../button/button.component';
-import { cardTexts } from '../../data/cardTexts';
 import { CardText } from '../card/card.model';
 import { CommonModule } from '@angular/common';
 
@@ -13,5 +12,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './info.component.css'
 })
 export class InfoComponent {
-  cardTexts: CardText[][] = cardTexts;
+  @Input() infoIntro: string = '';
+  @Input() infoAnswear: string = '';
+  @Input() cardTexts: CardText[][] = [];
 }
