@@ -6,15 +6,17 @@
 }
 
 .pains-section {
-  width: 80%;
   color: var(--color-white);
   display: flex;
+  padding-left: 10%;
+  padding-bottom: 0;
 }
 
 .pains-text-and-button {
   display: flex;
   flex-direction: column;
   gap: 18px;
+  padding-bottom: 52px;
 }
 
 .pains-image {

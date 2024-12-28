@@ -10,6 +10,10 @@
   background: url('/assets/ong-transparencia.jpg');
 }
 
+.price-card {
+  background-color: var(--color-red);
+}
+
 .card-container {
   border-radius: 32px;
   box-shadow: inset 0 0 8px #eb5b004a;

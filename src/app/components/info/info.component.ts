@@ -15,4 +15,5 @@ export class InfoComponent {
   @Input() infoIntro: string = '';
   @Input() infoAnswear: string = '';
   @Input() cardTexts: CardText[][] = [];
+  @Input() content: string = '';
 }

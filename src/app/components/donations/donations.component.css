@@ -1,0 +1,21 @@
+.donate-section {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+.who-text-and-button {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  z-index: 1;
+}
+
+.who-answear {
+  font-size: 36px;
+}
+
+.remarked-text {
+  color: var(--color-red);
+  font-weight: 500;
+  font-size: 36px;
+}

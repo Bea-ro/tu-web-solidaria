@@ -14,7 +14,7 @@ export const reasonsCards = [
     { type: 'mid-text', text: 'potenciales' }
   ],
   [
-    { type: 'small-text', text: 'Es una evidencia más de tu ' },
+    { type: 'small-text', text: 'Tu web es una evidencia más de tu ' },
     { type: 'remarked-text', text: 'transparencia ' },
     { type: 'mid-text', text: 'y te facilitará el acceso a subvenciones' }
   ]

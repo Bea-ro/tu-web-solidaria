@@ -1,7 +1,6 @@
-header {
+footer {
   background-color: var(--color-purple);
+  color: var(--color-white);
   padding: 32px 0;
-}
-header > img {
-  height: 60px;
+  text-align: center;
 }

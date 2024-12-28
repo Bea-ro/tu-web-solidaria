@@ -3,7 +3,10 @@
 <ul class="cards">
   @for (cardText of cardTexts; track cardText; let idx = $index) {
     <li>
-      <app-card [cardClass]="'card' + idx.toString()" [cardText]="cardText"></app-card>
+      <app-card
+        [cardClass]="content === 'reasons' ? 'card' + idx.toString() : 'price-card'"
+        [cardText]="cardText"
+      ></app-card>
     </li>
   }
 </ul>
