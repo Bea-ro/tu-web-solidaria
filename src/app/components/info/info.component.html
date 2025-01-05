@@ -1,5 +1,5 @@
-<h3 class="info-intro">{{ infoIntro }}</h3>
-<p class="info-answear">{{ infoAnswear }}</p>
+<h3 class="section-intro">{{ infoIntro }}</h3>
+<p class="section-answear" id="section-answear-info-component">{{ infoAnswear }}</p>
 <ul class="cards">
   @for (cardText of cardTexts; track cardText; let idx = $index) {
     <li>
@@ -15,7 +15,7 @@
   <app-button
     [buttonStyle]="'coloured-button'"
     [buttonText]="'Solicitar web'"
-    [buttonLink]="'/contacta'"
+    [buttonLink]="'mailto:b_a_ro@hotmail.com'"
   ></app-button>
   <app-button
     [buttonStyle]="'white-button'"

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { ButtonComponent } from '../button/button.component';
 
 @Component({
@@ -8,4 +8,7 @@ import { ButtonComponent } from '../button/button.component';
   templateUrl: './pains.component.html',
   styleUrl: './pains.component.css'
 })
-export class PainsComponent {}
+export class PainsComponent {
+  @Input() sectionIntro: string = '';
+  @Input() sectionAnswear: string = '';
+}

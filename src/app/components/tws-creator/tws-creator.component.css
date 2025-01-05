@@ -16,10 +16,6 @@
   z-index: 1;
 }
 
-.who-answear {
-  font-size: 36px;
-}
-
 .who-section::before {
   content: '';
   position: absolute;
@@ -41,7 +37,7 @@
 }
 
 .who-link > i {
-  color: var(--color-purple);
+  color: var(--color-red);
   font-size: 24px;
   margin-right: 8px;
 }

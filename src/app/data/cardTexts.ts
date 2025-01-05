@@ -24,16 +24,16 @@ export const pricesCards = [
   [
     { type: 'remarked-text', text: 'Página Básica' },
     { type: 'mid-text', text: '800 €' },
-    { type: 'small-text', text: 'Única página' }
+    { type: 'small-text', text: 'Única página (como esta)' }
   ],
   [
     { type: 'remarked-text', text: 'Página Estándard' },
     { type: 'mid-text', text: '1.000 €' },
-    { type: 'small-text', text: 'Página con 4-5 enlaces en el menú' }
+    { type: 'small-text', text: 'Web con 4-5 páginas y menú de navegación' }
   ],
   [
     { type: 'remarked-text', text: 'Página Full' },
     { type: 'mid-text', text: '1.200 €' },
-    { type: 'small-text', text: 'Página con blog incluido' }
+    { type: 'small-text', text: 'Web con 4-5 páginas y menú de navegación + blog' }
   ]
 ];

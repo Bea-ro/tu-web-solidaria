@@ -38,13 +38,16 @@ main {
   align-items: center;
 }
 
-.page-intro {
-  background-color: var(--color-orange);
-  width: 100%;
-}
-
 section {
   padding: 52px 0;
+}
+
+.section-intro {
+  font-size: 24px;
+}
+
+.section-answear {
+  font-size: 32px;
 }
 
 a {
