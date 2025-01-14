@@ -1,8 +1,8 @@
 :host {
-  width: 100vw;
   background-color: var(--color-orange);
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .pains-section {

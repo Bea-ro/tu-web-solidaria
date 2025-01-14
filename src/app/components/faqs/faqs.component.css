@@ -1,0 +1,17 @@
+.faqs-section {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 0;
+}
+
+.faqs-section > div > p {
+  line-height: 28px;
+}
+
+.question {
+  font-weight: 700;
+}

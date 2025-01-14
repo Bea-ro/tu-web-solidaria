@@ -1,11 +1,11 @@
 <h3 class="section-intro">{{ infoIntro }}</h3>
 <p class="section-answear" id="section-answear-info-component">{{ infoAnswear }}</p>
 <ul class="cards">
-  @for (cardText of cardTexts; track cardText; let idx = $index) {
+  @for (cardContent of cardsContent; track cardContent; let idx = $index) {
     <li>
       <app-card
         [cardClass]="content === 'reasons' ? 'card' + idx.toString() : 'price-card'"
-        [cardText]="cardText"
+        [cardContent]="cardContent"
       ></app-card>
     </li>
   }

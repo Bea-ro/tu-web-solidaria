@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { CardComponent } from '../card/card.component';
 import { ButtonComponent } from '../button/button.component';
-import { CardText } from '../card/card.model';
+import { CardText, CardTextAndDetails } from '../../models/cardTexts..model';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -14,6 +14,6 @@ import { CommonModule } from '@angular/common';
 export class InfoComponent {
   @Input() infoIntro: string = '';
   @Input() infoAnswear: string = '';
-  @Input() cardTexts: CardText[][] = [];
+  @Input() cardsContent: CardText[][] | CardTextAndDetails[] = [];
   @Input() content: string = '';
 }

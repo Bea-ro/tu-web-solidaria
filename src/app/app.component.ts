@@ -1,25 +1,25 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { TitleComponent } from './components/title/title.component';
 import { InfoComponent } from './components/info/info.component';
 import { PainsComponent } from './components/pains/pains.component';
 import { pricesCards, reasonsCards } from './data/cardTexts';
-import { CardText } from './components/card/card.model';
+import { CardText, CardTextAndDetails } from './models/cardTexts..model';
 import { FooterComponent } from './components/footer/footer.component';
 import { TwsCreatorComponent } from './components/tws-creator/tws-creator.component';
 import { DonationsComponent } from './components/donations/donations.component';
+import { FaqsComponent } from './components/faqs/faqs.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
-    RouterOutlet,
     TitleComponent,
     InfoComponent,
     PainsComponent,
     FooterComponent,
     TwsCreatorComponent,
-    DonationsComponent
+    DonationsComponent,
+    FaqsComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
@@ -27,7 +27,12 @@ import { DonationsComponent } from './components/donations/donations.component';
 export class AppComponent {
   title = 'tu-web-solidaria';
 
-  reasonsCards: CardText[][] = reasonsCards;
-  pricesCards: CardText[][] = pricesCards;
-  content: string = '';
+  public reasonsCards: CardText[][] = reasonsCards;
+  public pricesCards: CardTextAndDetails[] = pricesCards;
+  public pricesCardsTexts: CardText[][] = [];
+  public content: string = '';
+
+  constructor() {
+    this.pricesCards.map((priceCard) => this.pricesCardsTexts.push(priceCard.text));
+  }
 }
