@@ -23,7 +23,7 @@
 
 .card-container {
   border-radius: 32px;
-  height: 400px;
+  min-height: 400px;
   padding: 30px 16px;
   background-size: cover;
   position: relative;
@@ -49,14 +49,6 @@
   z-index: 1;
 }
 
-.remarked-text {
-  color: var(--color-red);
-  font-weight: 500;
-  font-size: 36px;
-  position: relative;
-  z-index: 1;
-}
-
 .small-text {
   position: relative;
   z-index: 1;
@@ -68,4 +60,13 @@
 
 .price-card-text {
   color: var(--color-black);
+}
+
+.details-list {
+  padding: 20px;
+}
+
+.detail-listed {
+  list-style-image: url('/assets/check-solid.svg');
+  padding-left: 1rem;
 }

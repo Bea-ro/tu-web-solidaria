@@ -3,20 +3,12 @@
   text-align: center;
   margin: auto;
 }
-.who-text-and-button {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  z-index: 1;
-}
 
 .section-intro {
   font-size: 24px;
   padding-bottom: 18px;
 }
 
-.remarked-text {
-  color: var(--color-red);
-  font-weight: 500;
-  font-size: 36px;
+.additional-info {
+  padding-top: 20px;
 }

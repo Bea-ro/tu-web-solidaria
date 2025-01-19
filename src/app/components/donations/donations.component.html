@@ -2,14 +2,13 @@
   <h3 class="section-intro">¿Dónde se destinará tu inversión?</h3>
   <p class="section-answear">
     El <span class="remarked-text">10% de tu inversión</span> se donará a todas aquellas ONGs cuyas
-    web haya creado. Es decir, tú también recibirás mi donación
-    <span (click)="showText()">▶</span>
-    <span [hidden]="textVisiblity"
-      >Anualmente, durante la segunda quincena de diciembre, donaré el 10% de los importes recibidos
-      durante ese ejercicio repartido entre las ONGs cuya página web haya creado durante el mismo
-      ejercicio. El reparto será a partes iguales. Las transferencias se publicarán en esta misma
-      página web. Hasta Diciembre de 2025 no habrá nada publicado porque esta "idea loca" arranca en
-      2025.</span
-    >
+    web ha creado TW+S. Es decir, tú también recibirás una donación de TW+S.
+    <span (click)="showText()">{{ infoButtonText }}</span>
+  </p>
+  <p class="additional-info" [hidden]="textVisiblity">
+    TW+S donará el 10% del importe total recibido durante el ejercicio en curso a todas las ONG cuya
+    página web haya creado durante el mismo ejercicio. El importe total se repartirá a partes
+    iguales. Las transferencias se harán durante la primera quincena de enero y se publicarán en
+    esta misma página web. Hasta Enero de 2026 no habrá nada publicado porque TW+S arranca en 2025.
   </p>
 </section>

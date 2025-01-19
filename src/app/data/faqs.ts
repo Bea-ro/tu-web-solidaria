@@ -13,12 +13,12 @@ export const faqs: Faqs[] = [
   {
     question: '¿Cómo podré actualizar contenidos?',
     answear:
-      'Podrás solicitar cambios pequeños y los tendrás en menos de 3 días sin tener que pagar nada adicional. Para cambios más grandes, dependiendo del trabajo que conlleven acordaremos plazo y presupuesto.'
+      'Podrás solicitar cambios pequeños y los tendrás en menos de 3 días hábiles sin tener que pagar nada adicional. Para cambios más grandes, se proporcionará plazo y presupuesto acordes al trabajo que conlleven.'
   },
   {
     question:
       '¿Qué pasa si no soy una ONG y me gusta la idea de que parte de mi inversión se destine a causas sociales?',
     answear:
-      '¡Genial! También puedes solicitar tu página web e igualmente el 10% de tu inversión se destinará a las ONGs cuyas páginas haya creado.'
+      '¡Genial! También puedes solicitar tu página web e igualmente el 10% de tu inversión se destinará a las ONGs cuyas páginas haya creado TW+S.'
   }
 ];

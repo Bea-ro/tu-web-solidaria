@@ -1,1 +1,13 @@
-<p>contact works!</p>
+<section class="contact-section">
+  <div class="contact-text-and-button">
+    <p class="section-intro">{{ sectionIntro }}</p>
+    <p class="section-answear">{{ sectionAnswear }}</p>
+    <p>Correo: b_a_rohotmail.com</p>
+    <p>Teléfono: 678 207 035</p>
+    <app-button
+      [buttonStyle]="'coloured-button'"
+      [buttonText]="'Contacto'"
+      [buttonLink]="'/mailto:b_a_ro@hotmail.com'"
+    ></app-button>
+  </div>
+</section>

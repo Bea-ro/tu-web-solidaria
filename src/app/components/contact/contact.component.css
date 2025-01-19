@@ -1,0 +1,19 @@
+:host {
+  background-color: var(--color-orange);
+  width: 100%;
+}
+
+.contact-section {
+  color: var(--color-white);
+  display: flex;
+  padding-bottom: 0;
+  justify-content: center;
+}
+
+.contact-text-and-button {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-bottom: 52px;
+  align-items: center;
+}

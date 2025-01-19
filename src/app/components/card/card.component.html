@@ -3,21 +3,9 @@
     <span *ngFor="let text of cardText" [ngClass]="text.type">{{ text.text }}</span>
   </p>
 
-  <ul *ngIf="cardContent as CardTextAndDetails">
-    <li *ngFor="let detail of cardDetails">
+  <ul *ngIf="cardContent as CardTextAndDetails" class="details-list">
+    <li *ngFor="let detail of cardDetails" class="detail-listed">
       <p>{{ detail }}</p>
     </li>
   </ul>
 </div>
-
-<!-- <div [ngClass]="['card-container', cardClass]">
-  <p [ngClass]="cardClass === 'price-card' ? 'price-card-text' : 'reason-card-text'">
-    <span *ngFor="let text of cardText" [ngClass]="text.type">{{ text.text }}</span>
-  </p>
-
-  <ul *ngIf="cardClass === 'price-card'">
-    <li *ngFor="let detail of priceDetails">
-      <p>{{ detail }}</p>
-    </li>
-  </ul>
-</div> -->
