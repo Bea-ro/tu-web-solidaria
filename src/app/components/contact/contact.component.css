@@ -17,3 +17,13 @@
   padding-bottom: 52px;
   align-items: center;
 }
+
+@media screen and (max-width: 766px) {
+  .contact-text-and-button {
+    width: 90%;
+    align-items: center;
+  }
+  .section-answear {
+    text-align: center;
+  }
+}

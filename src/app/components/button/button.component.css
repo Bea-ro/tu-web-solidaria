@@ -26,3 +26,17 @@
   padding: 10px 20px;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 766px) {
+  :host {
+    padding: 0;
+  }
+
+  .white-button,
+  .coloured-button {
+    display: flex;
+    width: 80vw;
+    text-align: center;
+    justify-content: center;
+  }
+}

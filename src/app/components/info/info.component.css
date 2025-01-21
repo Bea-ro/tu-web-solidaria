@@ -17,3 +17,14 @@
 #section-answear-info-component {
   text-align: center;
 }
+
+@media screen and (max-width: 766px) {
+  :host {
+    width: 100%;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+}

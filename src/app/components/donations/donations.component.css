@@ -16,3 +16,9 @@
 .additional-info {
   padding-top: 20px;
 }
+
+@media screen and (max-width: 766px) {
+  .donate-section {
+    width: 90%;
+  }
+}
