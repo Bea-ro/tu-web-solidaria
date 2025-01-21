@@ -1,5 +1,10 @@
 :host {
   padding: 12px 0;
+  transition: transform 0.3s ease;
+}
+
+:host:hover {
+  transform: scale(1.02);
 }
 
 .white-button {
@@ -20,13 +25,4 @@
   font-weight: 500;
   padding: 10px 20px;
   text-transform: uppercase;
-  transition: transform 0.3s ease-in-out;
-}
-
-.coloured-button:hover {
-  transform: scale(1.05);
-}
-
-.coloured-button:disabled {
-  background-color: var(--color-grey);
 }

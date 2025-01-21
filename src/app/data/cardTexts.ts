@@ -37,8 +37,8 @@ export const pricesCards: CardTextAndDetails[] = [
   {
     text: [
       { type: 'remarked-text', text: 'Página Básica' },
-      { type: 'mid-text', text: '800 €' },
-      { type: 'small-text', text: 'Única página (como esta)' }
+      { type: 'small-text', text: 'Única página (como esta)' },
+      { type: 'mid-text', text: '750 €' }
     ],
     details: [
       'Todo el contenido en una página',
@@ -51,8 +51,8 @@ export const pricesCards: CardTextAndDetails[] = [
   {
     text: [
       { type: 'remarked-text', text: 'Página Estándard' },
-      { type: 'mid-text', text: '1.000 €' },
-      { type: 'small-text', text: 'Web con 4-5 páginas y menú de navegación' }
+      { type: 'small-text', text: 'Web con 4-5 páginas y menú de navegación' },
+      { type: 'mid-text', text: '980 €' }
     ],
     details: [
       'Página de inicio y otras páginas necesarias',
@@ -65,8 +65,8 @@ export const pricesCards: CardTextAndDetails[] = [
   {
     text: [
       { type: 'remarked-text', text: 'Página Full' },
-      { type: 'mid-text', text: '1.200 €' },
-      { type: 'small-text', text: 'Web con 4-5 páginas y menú de navegación + blog' }
+      { type: 'small-text', text: 'Web con 4-5 páginas y menú de navegación + blog' },
+      { type: 'mid-text', text: '1.200 €' }
     ],
     details: [
       'Página de inicio y otras páginas necesarias',

@@ -1,5 +1,3 @@
-añadir ul a price-card con detalle
-
+comprar dominio con correo
 descargar precios: enlace a descarga de PDF
 favicon/logo
-hover botones

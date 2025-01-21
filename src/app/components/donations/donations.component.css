@@ -9,6 +9,10 @@
   padding-bottom: 18px;
 }
 
+.info-button {
+  color: var(--color-purple);
+}
+
 .additional-info {
   padding-top: 20px;
 }
