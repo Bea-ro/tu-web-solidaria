@@ -19,6 +19,6 @@ export const faqs: Faqs[] = [
     question:
       '¿Qué pasa si no soy una ONG y me gusta la idea de que parte de mi inversión se destine a causas sociales?',
     answear:
-      '¡Genial! También puedes solicitar tu página web e igualmente el 10% de tu inversión se destinará a las ONGs cuyas páginas haya creado TW+S.'
+      '¡Genial! También puedes solicitar tu página web e igualmente el 10% de tu inversión se destinará a las ONGs cuyas páginas haya creado TWS.'
   }
 ];
