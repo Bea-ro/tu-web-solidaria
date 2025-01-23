@@ -27,6 +27,7 @@
   padding: 30px 16px;
   background-size: cover;
   position: relative;
+  height: 100;
 }
 
 .card0::before,
